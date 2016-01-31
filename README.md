@@ -6,12 +6,9 @@ Enclosed is my submission for the "Getting And Cleaning Data" Course Project.
 How to run:
 
 1. Retrieve the "run\_analysis.R" script from the repository.  If you need to run it yourself, it is easiest to retrieve all the same data in the repo directory as well.
-2. Add the directory containing both the R script and the input data to your R environment path.
-	Example: If you pulled everything to the /home/derp/RProject directory, enter "setwd \"/home/derp/RProject\"" in an RStudio terminal.
-3. Source the R script so that it may be run:
-	"source "run\_analysis.R"" inside RStudio.
-4. Execute the script by running the "main" method in an R/RStudio terminal:
-	"main()".  This will write a new, tidy data set to the directory containing the R script that is called "tidyDataOutputSet.txt".  If you want a different output name, you may specify that file name as the first function argument.
+2. Add the directory containing both the R script and the input data to your R environment path.  Example: If you pulled everything to the /home/derp/RProject directory, enter "setwd "/home/derp/RProject"" in an RStudio terminal.
+3. Source the R script so that it may be run: "source "run\_analysis.R"" inside RStudio.
+4. Execute the script by running the "main" method in an R/RStudio terminal: "main()".  This will write a new, tidy data set to the directory containing the R script that is called "tidyDataOutputSet.txt".  If you want a different output name, you may specify that file name as the first function argument.
 
 The general layout of the script is as follows:
 1. Read the following files with read.table():
